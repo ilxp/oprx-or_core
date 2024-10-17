@@ -58,15 +58,15 @@ SHA256sum: f605fa922920b87954d5e9cec8e998745fc7ae49d7012d846592436e129a74bd
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
-Version: 1-24.10.17
+Version: 1-24.10.18
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 45795228
-Filename: base-files_1-24.10.17_x86_64.ipk
-Size: 45522442
-SHA256sum: 62a2a6cd574df2334c36c75297d41cda28fc856fbdae5833f43d29935bdfb315
+Installed-Size: 45763020
+Filename: base-files_1-24.10.18_x86_64.ipk
+Size: 45490266
+SHA256sum: 167d5d0786eeffdea0b08bac6d590bcfafd305db8fd64f49cc3f1b4e740f52c2
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -1716,10 +1716,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-lib-zlib-in
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2416
+Installed-Size: 2410
 Filename: kmod-crypto-deflate_5.15.167-1_x86_64.ipk
-Size: 3197
-SHA256sum: 3ff712b449555bbe5d6c572e85b2b8b97a9ba91e2113338b62ea92473fe6bed8
+Size: 3190
+SHA256sum: 1288aac8ca95d9d614b9753c72fddb9db09c470c187d5463b625108a19a08b4a
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -2324,6 +2324,22 @@ Size: 2169722
 SHA256sum: 855ef391bd34af687f82b6bbdd8c86df037a635e28012dffe1222474f7682329
 Description:  Direct Rendering Manager (DRM) support for AMDGPU Cards
 
+Package: kmod-drm-i915
+Version: 5.15.167-1
+Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-drm-ttm, kmod-drm-kms-helper, i915-firmware
+License: GPL-2.0-only
+Section: kernel
+Architecture: x86_64
+Installed-Size: 1068165
+Filename: kmod-drm-i915_5.15.167-1_x86_64.ipk
+Size: 1056000
+SHA256sum: a8462edc689dc5f70b82ab3884c2957de36278edc1de44968d786660bd09b6e8
+Description:  Direct Rendering Manager (DRM) support for "Intel Graphics
+ Media Accelerator" or "HD Graphics" integrated graphics,
+ including 830M, 845G, 852GM, 855GM, 865G, 915G, 945G, 965G,
+ G35, G41, G43, G45 chipsets and Celeron, Pentium, Core i3,
+ Core i5, Core i7 as well as Atom CPUs with integrated graphics.
+
 Package: kmod-drm-kms-helper
 Version: 5.15.167-1
 Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-drm, kmod-fb, kmod-fb-sys-fops, kmod-fb-cfb-copyarea, kmod-fb-cfb-fillrect, kmod-fb-cfb-imgblt, kmod-fb-sys-ram
@@ -2821,10 +2837,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-lib-crc32c,
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 583626
+Installed-Size: 583688
 Filename: kmod-fs-btrfs_5.15.167-1_x86_64.ipk
-Size: 579967
-SHA256sum: 00ff9337105382090bead0e0466d8f53c23f9371e236f3e11d82c33bc32bd789
+Size: 580113
+SHA256sum: e50c884b3cb0b2e8da211d1f390253053d6436dc8ee19403fe65effcf95d675a
 Description:  Kernel module for BTRFS support
 
 Package: kmod-fs-cifs
@@ -4635,10 +4651,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 46925
+Installed-Size: 47274
 Filename: kmod-ikconfig_5.15.167-1_x86_64.ipk
-Size: 47751
-SHA256sum: 9ef1dab9497465203e58ef08cd2dc167e38bd152760d71725e9bdfad0c2d0631
+Size: 48158
+SHA256sum: f88117ab84fd68b8fc007b6cfd1b648f97964b67cd8f8c33b4a477ba9b763b00
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -6392,10 +6408,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 11372
+Installed-Size: 189
 Filename: kmod-lib-zlib-deflate_5.15.167-1_x86_64.ipk
-Size: 12129
-SHA256sum: e808898f506f13d1da704050c136fdfbb422a4a8a06b5bc034283202e2bd43fa
+Size: 928
+SHA256sum: 294abc89f882315bb54d5c385c970571dfd230841ffd130d3a53cd0a568f0e26
 Description:  Zlib support
 
 Package: kmod-lib-zlib-inflate
@@ -10330,10 +10346,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-sound-core,
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25495
+Installed-Size: 25511
 Filename: kmod-sound-hda-codec-hdmi_5.15.167-1_x86_64.ipk
-Size: 26163
-SHA256sum: 4d64e3f14ea422137802b538a6db43323d4b09b55fa3ad5810146cb8bc5789e7
+Size: 26193
+SHA256sum: c3abeb96d9fc2f98a208c6c41b037ad52f1589b6211386a71e8dc93275d8e0c7
 Description:  Kernel modules for HD Audio HDMI codec support
 
 Package: kmod-sound-hda-codec-idt
@@ -10390,10 +10406,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ledtrig-aud
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 111727
+Installed-Size: 112243
 Filename: kmod-sound-hda-core_5.15.167-1_x86_64.ipk
-Size: 112199
-SHA256sum: 0d3b7039a78c7d08f9b2220e32aab3210d00be19d0343c76bb8c21b9028502da
+Size: 112804
+SHA256sum: d66d10aad40dd8bc3c0223e6c520bb7c614ee04195dbce7c44b18de2a2f6bb32
 Description:  Kernel modules for HD Audio sound support
 
 Package: kmod-sound-hda-intel
@@ -10402,10 +10418,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-sound-core,
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 14181
+Installed-Size: 14318
 Filename: kmod-sound-hda-intel_5.15.167-1_x86_64.ipk
-Size: 14929
-SHA256sum: 8f5790f77c4c1535ffb8c030f3ae60487db1e0b09dbcd6f14fda4618140c258c
+Size: 15075
+SHA256sum: 5e06d2278d16a1dc2c432b775a501f7ac7d0c574dbc6d3bdfd32c9858760de60
 Description:  Kernel modules for HD Audio Intel driver support
 
 Package: kmod-sound-i8x0
