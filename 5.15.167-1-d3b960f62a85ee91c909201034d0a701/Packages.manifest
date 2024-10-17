@@ -80,7 +80,7 @@ SHA256sum: f605fa922920b87954d5e9cec8e998745fc7ae49d7012d846592436e129a74bd
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
-Version: 1-24.10.16
+Version: 1-24.10.17
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 Source: feeds/base/base-files
 SourceName: base-files
@@ -88,10 +88,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1727132013
 Architecture: x86_64
-Installed-Size: 45740289
-Filename: base-files_1-24.10.16_x86_64.ipk
-Size: 45468176
-SHA256sum: 0d5917be5d7442239a64286c8bd674d2a73a1d3febc26ba17ffd9151e950347a
+Installed-Size: 45798310
+Filename: base-files_1-24.10.17_x86_64.ipk
+Size: 45526359
+SHA256sum: 20add54ab6c9e131c419d2f5812e8f01379147be1afde16df7698d5b33375437
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -10151,10 +10151,10 @@ LicenseFiles: COPYING
 Section: kernel
 SourceDateEpoch: 1727132013
 Architecture: x86_64
-Installed-Size: 56960
+Installed-Size: 56972
 Filename: kmod-nf-conntrack_5.15.167-1_x86_64.ipk
-Size: 57464
-SHA256sum: 056d202a41330ab306ee0d91022756dfdb3172d8c3d425eedf1711a62c36a022
+Size: 57499
+SHA256sum: dcd718c956439de18374f58a4ff6123d18d86dbbc5f58c08c60bc32f42cc54c5
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-dup-inet
