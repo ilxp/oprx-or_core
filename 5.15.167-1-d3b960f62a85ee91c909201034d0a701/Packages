@@ -20,21 +20,6 @@ Size: 961817
 SHA256sum: f2b222cd9032e5022c11bd3319aa219ae950e4aba5061725345a28e2be93555b
 Description:  ath3k firmware
 
-Package: arptables-nft
-Version: 1.8.8-2
-Depends: libc, kmod-nft-arp, xtables-nft, kmod-arptables
-Provides: arptables
-Alternatives: 300:/usr/sbin/arptables:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/arptables-restore:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/arptables-save:/usr/sbin/xtables-nft-multi
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 2908
-Filename: arptables-nft_1.8.8-2_x86_64.ipk
-Size: 3725
-SHA256sum: cce2705fbe070a3d4aaf63e0c99e29b71b734e765320edcac9a4b735389c83d2
-Description:  ARP firewall administration tool nft
-
 Package: ath9k-htc-firmware
 Version: 20230804-1
 Depends: libc
@@ -46,40 +31,17 @@ Size: 62391
 SHA256sum: 6d5fc5b7d755f7f2d9b77559d4887e661b52d4f59480196898d66c064e0a6804
 Description:  AR9271/AR7010 firmware
 
-Package: autocore-x86
-Version: 1
-Depends: libc, lm-sensors, ethtool
-Section: opt
-Architecture: x86_64
-Installed-Size: 8328
-Filename: autocore-x86_1_x86_64.ipk
-Size: 9078
-SHA256sum: f605fa922920b87954d5e9cec8e998745fc7ae49d7012d846592436e129a74bd
-Description:  x86/x64 auto core loadbalance script.
-
 Package: base-files
-Version: 1-24.10.18
+Version: 1-24.10.19
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 45774184
-Filename: base-files_1-24.10.18_x86_64.ipk
-Size: 45502178
-SHA256sum: e0ded28393f1b2c55da235b1edb53f1998474256a7c833c1ac962c2bee772004
+Installed-Size: 45779837
+Filename: base-files_1-24.10.19_x86_64.ipk
+Size: 45507838
+SHA256sum: bbbc3864fd871deeb179ea8c92c634cbc654f60e6f50a766cbd4151775f60a5f
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
-
-Package: block-mount
-Version: 2023-02-28-bfe882d5-1
-Depends: libc, fstools, ubox, libubox20230523, libuci20130104, libblobmsg-json20230523, libjson-c5
-License: GPL-2.0
-Section: base
-Architecture: x86_64
-Installed-Size: 24930
-Filename: block-mount_2023-02-28-bfe882d5-1_x86_64.ipk
-Size: 25574
-SHA256sum: 45ef2d11527fb32602a1204ea86ab95d11d9e5395d5622d17c4e11463dd401f8
-Description:  Block device mounting and checking
 
 Package: bnx2-firmware
 Version: 20230804-1
@@ -150,21 +112,6 @@ Size: 1548
 SHA256sum: 7f3762fe49a62d48e1baa283586d4d5f791e4a12f07030c5ad4797b0a606829f
 Description:  Intel e100
 
-Package: ebtables-nft
-Version: 1.8.8-2
-Depends: libc, kmod-nft-bridge, xtables-nft, kmod-ebtables
-Provides: ebtables
-Alternatives: 300:/usr/sbin/ebtables:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/ebtables-restore:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/ebtables-save:/usr/sbin/xtables-nft-multi
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 34999
-Filename: ebtables-nft_1.8.8-2_x86_64.ipk
-Size: 35624
-SHA256sum: 0de825ac43cf0ff29547f5b16c9ad06b7cb654f7bfe57faf8831568ac75d7e95
-Description:  Bridge firewall administration tool nft
-
 Package: edgeport-firmware
 Version: 20230804-1
 Depends: libc
@@ -182,10 +129,10 @@ Depends: libc, ubox
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 18634
+Installed-Size: 19024
 Filename: fstools_2023-02-28-bfe882d5-1_x86_64.ipk
-Size: 19333
-SHA256sum: e0f156371818e4913fa69f0e04ce415dda2f8300346d0e0f664053ab1fbd9ade
+Size: 19669
+SHA256sum: e0a7500a8614833b8bc2a2eaf12c8fe5b10e5ff790e39214f5c55ce7ac8b428c
 Description:  OpenWrt filesystem tools
 
 Package: fwtool
@@ -194,10 +141,10 @@ Depends: libc
 License: GPL-2.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 4509
+Installed-Size: 4616
 Filename: fwtool_2019-11-12-8f7fe925-1_x86_64.ipk
-Size: 5269
-SHA256sum: 5f8944db3cea51393b2a08e231a72ce357ffaff9a5e6feda78a30bd97696ded5
+Size: 5372
+SHA256sum: 5adef73e894a6fd3d02d96209fba6520b284ef9e6e89f562ff13d8e4382f9a00
 Description:  Utility for appending and extracting firmware metadata and signatures
 
 Package: grub2-bios-setup
@@ -249,186 +196,6 @@ Filename: i915-firmware_20230804-1_x86_64.ipk
 Size: 7749067
 SHA256sum: 47210a4d77d3671184451b09d4df05fa0f777a404e58e078ee1911bc7be7d3c3
 Description:  Intel GPU firmware
-
-Package: ip6tables-nft
-Version: 1.8.8-2
-Depends: libc, kmod-ip6tables, xtables-nft
-Provides: ip6tables
-Alternatives: 300:/usr/sbin/ip6tables:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/ip6tables-restore:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/ip6tables-save:/usr/sbin/xtables-nft-multi
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 243
-Filename: ip6tables-nft_1.8.8-2_x86_64.ipk
-Size: 1061
-SHA256sum: 0d4c94e673f54a072d8bf3f634db657695103aecda1264090dd608cc950fbbcb
-Description:  Extra ip6tables nftables nft binaries.
- ip6tables-nft
- ip6tables-nft-restore
- ip6tables-nft-save
- ip6tables-translate
- ip6tables-restore-translate
-
-Package: iptables-mod-conntrack-extra
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-conntrack-extra
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 15412
-Filename: iptables-mod-conntrack-extra_1.8.8-2_x86_64.ipk
-Size: 16114
-SHA256sum: cca47bd3f5297379709a53e0ea6e4ae870c89a552e739aaffc1e4f02308da6d4
-Description:  Extra iptables extensions for connection tracking.
- 
- Matches:
- - connbytes
- - connlimit
- - connmark
- - recent
- - helper
- 
- Targets:
- - CONNMARK
- 
-
-Package: iptables-mod-filter
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-filter
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 6002
-Filename: iptables-mod-filter_1.8.8-2_x86_64.ipk
-Size: 6764
-SHA256sum: c8369b31e8c38efe184ecdf30a50db0b08b7051119678bcd4cd83e02772c986f
-Description:  iptables extensions for packet content inspection.
- Includes support for:
- 
- Matches:
- - string
- - bpf
- 
-
-Package: iptables-mod-ipopt
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-ipopt
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 18005
-Filename: iptables-mod-ipopt_1.8.8-2_x86_64.ipk
-Size: 18559
-SHA256sum: e6951d81b4db9fa6e9daa43625648a6bd24186e96d4c9040ec7f52d404028b9d
-Description:  iptables extensions for matching/changing IP packet options.
- 
- Matches:
- - dscp
- - ecn
- - length
- - statistic
- - tcpmss
- - unclean
- - hl
- 
- Targets:
- - DSCP
- - CLASSIFY
- - ECN
- - HL
- 
-
-Package: iptables-mod-iprange
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-iprange
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 4077
-Filename: iptables-mod-iprange_1.8.8-2_x86_64.ipk
-Size: 4841
-SHA256sum: adbb53fc6110a6b886f352361741c80180755623997e3a09afd4ad4c89bc312e
-Description:  iptables extensions for matching ip ranges.
- 
- Matches:
- - iprange
- 
-
-Package: iptables-mod-nat-extra
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-nat-extra
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 2635
-Filename: iptables-mod-nat-extra_1.8.8-2_x86_64.ipk
-Size: 3381
-SHA256sum: 4fd1c5b6b78d39d1697499c0263157b647d1081d60b6b200eb1bd71280301d6d
-Description:  iptables extensions for extra NAT targets.
- 
- Targets:
- - MIRROR
- - NETMAP
-
-Package: iptables-mod-socket
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-socket
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 2315
-Filename: iptables-mod-socket_1.8.8-2_x86_64.ipk
-Size: 3065
-SHA256sum: 92ade89891b0f10f91a9ad3e31ed4f5d16f049d7fca2d78ecf1796dea743ed81
-Description:  Socket match iptables extensions.
- 
- Matches:
- - socket
- 
-
-Package: iptables-mod-tproxy
-Version: 1.8.8-2
-Depends: libc, libxtables12, kmod-ipt-tproxy
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 2305
-Filename: iptables-mod-tproxy_1.8.8-2_x86_64.ipk
-Size: 3061
-SHA256sum: 58fce66e0ae8888b059e78ea8063344b04373becdb5597dd3c2d2680a420d15a
-Description:  Transparent proxy iptables extensions.
- 
- Targets:
- - TPROXY
- 
-
-Package: iptables-nft
-Version: 1.8.8-2
-Depends: libc, kmod-ipt-core, xtables-nft
-Provides: iptables
-Alternatives: 300:/usr/sbin/iptables:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/iptables-restore:/usr/sbin/xtables-nft-multi, 300:/usr/sbin/iptables-save:/usr/sbin/xtables-nft-multi
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 240
-Filename: iptables-nft_1.8.8-2_x86_64.ipk
-Size: 1054
-SHA256sum: e5bc0761bab1a5d7aa997ceebd61d935b00986316021aeac9f83f0ed626214b4
-Description:  Extra iptables nftables nft binaries.
- iptables-nft
- iptables-nft-restore
- iptables-nft-save
- iptables-translate
- iptables-restore-translate
 
 Package: kmod-3c59x
 Version: 5.15.167-1
@@ -3119,6 +2886,34 @@ Size: 152495
 SHA256sum: d419cc574e10d8b88d62a986345448acee6b61020276f6b041fe88f6f45f8edc
 Description:  Kernel module for NFS kernel server support
 
+Package: kmod-fs-ntfs3
+Version: 5.15.167-1
+Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-nls-base
+License: GPL-2.0-only
+Section: kernel
+Architecture: x86_64
+Installed-Size: 118165
+Filename: kmod-fs-ntfs3_5.15.167-1_x86_64.ipk
+Size: 118531
+SHA256sum: e0545f9f9be35ec4f68bff99b3d3a83a28fe0cd0272499a0a5ebe64f96461e25
+Description:  Kernel module for fully functional NTFS filesystem support. It allows
+ reading as well as writing.
+ 
+ It supports NTFS versions up to 3.1.
+
+Package: kmod-fs-ntfs
+Version: 5.15.167-1
+Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-nls-base
+License: GPL-2.0-only
+Section: kernel
+Architecture: x86_64
+Installed-Size: 51130
+Filename: kmod-fs-ntfs_5.15.167-1_x86_64.ipk
+Size: 51830
+SHA256sum: 1becd9c75c73cb20c8d63cee690061710153bc4f9ef2518a06fd000d2b430998
+Description:  Kernel module for limited NTFS filesystem support. Support for writing
+ is extremely limited and disabled as a result.
+
 Package: kmod-fs-reiserfs
 Version: 5.15.167-1
 Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
@@ -4651,10 +4446,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 47274
+Installed-Size: 47310
 Filename: kmod-ikconfig_5.15.167-1_x86_64.ipk
-Size: 48158
-SHA256sum: f88117ab84fd68b8fc007b6cfd1b648f97964b67cd8f8c33b4a477ba9b763b00
+Size: 48198
+SHA256sum: 8a34deaedf27b57a2c0e1a6639d54fcfa7861e0faee6a77adaeb50c4431d109c
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -8440,14 +8235,14 @@ Description:  Kernel module for NVM Express solid state drives directly
  connected to the PCI or PCI Express bus.
 
 Package: kmod-oaf
-Version: 5.15.167-1
+Version: 5.15.167+5.0.2-1
 Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: x86_64
-Installed-Size: 106825
-Filename: kmod-oaf_5.15.167-1_x86_64.ipk
-Size: 106972
-SHA256sum: 12bc60b340698de35dd75a50d7ce9fc573234993889a51bb75eb160bb8e4fc67
+Installed-Size: 25194
+Filename: kmod-oaf_5.15.167+5.0.2-1_x86_64.ipk
+Size: 25887
+SHA256sum: 8887564842c20ebfe6c47f83c1bfddacd0e33fc1276c2188987f72fdcf2cdde4
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -9126,6 +8921,19 @@ Size: 8706
 SHA256sum: 3eeb22890c4632326baed9f0ab6f7cfb57f36b5878e1a7cce5ba204ecd6e15b8
 Description:  Kernel modules for RDC Fast-Ethernet adapters.
 
+Package: kmod-r8101
+Version: 5.15.167+1.039.00-2
+Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-libphy
+Provides: kmod-r8169
+License: GPLv2
+Section: kernel
+Architecture: x86_64
+Installed-Size: 68574
+Filename: kmod-r8101_5.15.167+1.039.00-2_x86_64.ipk
+Size: 69184
+SHA256sum: ed3d022be7d123380bc49c112ffa16ec0907328e19ab77bf017367d5eb666ad0
+Description:  Realtek RTL8101 PCI Fast Ethernet driver
+
 Package: kmod-r8125-rss
 Version: 5.15.167+9.013.02-4
 Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-libphy
@@ -9190,6 +8998,18 @@ Filename: kmod-r8168_5.15.167+8.053.00-2_x86_64.ipk
 Size: 170418
 SHA256sum: ce116adc5094424e5ec8fdef872b8c10d5c0f3cb90d044e5565c237fac4d6378
 Description:  Realtek RTL8168 PCI Gigabit Ethernet driver
+
+Package: kmod-r8169
+Version: 5.15.167-1
+Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-mii, r8169-firmware, kmod-phy-realtek, kmod-mdio-devres
+License: GPL-2.0-only
+Section: kernel
+Architecture: x86_64
+Installed-Size: 36737
+Filename: kmod-r8169_5.15.167-1_x86_64.ipk
+Size: 37428
+SHA256sum: f6be15678b8e3f2966edb4d0dcc21fdf4f121411a72f2da6101da8501f8e47f5
+Description:  Kernel modules for RealTek RTL-8169 PCI Gigabit Ethernet adapters
 
 Package: kmod-ramoops
 Version: 5.15.167-1
@@ -12895,22 +12715,6 @@ Size: 20734
 SHA256sum: 5c297aa91d45a60ee556d4a6c7602ba668207fd981c5661afdf576c5a5ba8f6a
 Description:  Compressed RAM block device support
 
-Package: libatomic1
-Version: 11.3.0-4
-Depends: libgcc1
-Provides: libatomic
-License: GPL-3.0-with-GCC-exception
-Section: libs
-ABIVersion: 1
-Status: unknown hold not-installed
-Essential: yes
-Architecture: x86_64
-Installed-Size: 7215
-Filename: libatomic1_11.3.0-4_x86_64.ipk
-Size: 7964
-SHA256sum: 3a0b36c0d364c20598a978a69d54d6b4f7e24555d6f292bb81cdd1e23edbbc90
-Description:  Atomic support library
-
 Package: libgcc1
 Version: 11.3.0-4
 Provides: libgcc
@@ -12925,51 +12729,6 @@ Filename: libgcc1_11.3.0-4_x86_64.ipk
 Size: 34593
 SHA256sum: 2457c24066f9ef7491f829d5d4bb7d2785852459904ffa404a5c6113d8728047
 Description:  GCC support library
-
-Package: libiptext-nft0
-Version: 1.8.8-2
-Depends: libc, libxtables12
-Provides: libiptext-nft
-License: GPL-2.0
-Section: libs
-ABIVersion: 0
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 3357
-Filename: libiptext-nft0_1.8.8-2_x86_64.ipk
-Size: 4093
-SHA256sum: f15ee559007dc287f57cbea2d7d17fea0dcb4704544334e778dcf380414b1345
-Description:  IPv4/IPv6 firewall - shared libiptext nft library
-
-Package: libiptext0
-Version: 1.8.8-2
-Depends: libc, libxtables12
-Provides: libiptext
-License: GPL-2.0
-Section: libs
-ABIVersion: 0
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 46316
-Filename: libiptext0_1.8.8-2_x86_64.ipk
-Size: 47022
-SHA256sum: c368c5a27d6568fc6ca2ffc5747147cb5f84ea1dad3dfd372bddd0bc19a13174
-Description:  IPv4 firewall - shared libiptext library
-
-Package: libiptext6-0
-Version: 1.8.8-2
-Depends: libc, libxtables12
-Provides: libiptext6
-License: GPL-2.0
-Section: libs
-ABIVersion: -0
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 9315
-Filename: libiptext6-0_1.8.8-2_x86_64.ipk
-Size: 10101
-SHA256sum: f008e22ea9cdbd60334702f3cbe3392f5c746ed0f4b405acdfed3248120a9ad6
-Description:  IPv6 firewall - shared libiptext library
 
 Package: libpthread
 Version: 1.2.4-4
@@ -12998,21 +12757,6 @@ Filename: librt_1.2.4-4_x86_64.ipk
 Size: 888
 SHA256sum: da8b6b0ace7ec7bfb3bb78942fb650aba9e43b826853408c855adccf54df0538
 Description:  POSIX.1b RealTime extension library
-
-Package: libstdcpp6
-Version: 11.3.0-4
-Provides: libstdcpp
-License: GPL-3.0-with-GCC-exception
-Section: libs
-ABIVersion: 6
-Status: unknown hold not-installed
-Essential: yes
-Architecture: x86_64
-Installed-Size: 577342
-Filename: libstdcpp6_11.3.0-4_x86_64.ipk
-Size: 569921
-SHA256sum: 0580135ce8a43d43810553a8cc4ea1efd664afdfa602c7d01321bdd10224defe
-Description:  GNU Standard C++ Library v3
 
 Package: libxtables12
 Version: 1.8.8-2
@@ -13046,10 +12790,10 @@ Depends: libc, libubox20230523
 License: GPL-2.0+
 Section: utils
 Architecture: x86_64
-Installed-Size: 13503
+Installed-Size: 13505
 Filename: mtd_26_x86_64.ipk
-Size: 14231
-SHA256sum: d46eab8a0b2b6620e338ec16c643718584dfb0e70458944ed47a2799d5539a59
+Size: 14232
+SHA256sum: 56fb2f63220b0e2843fb625d2195ad63ef1e759d252d141e13baef642ef92694
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -13096,6 +12840,17 @@ Filename: r8152-firmware_20230804-1_x86_64.ipk
 Size: 11634
 SHA256sum: 5abe9a10b3591b53d30183de0cd4e5b52ae743cb3f09d051ae31aed540c2facb
 Description:  RealTek RTL8152 firmware
+
+Package: r8169-firmware
+Version: 20230804-1
+Depends: libc
+Section: firmware
+Architecture: x86_64
+Installed-Size: 23815
+Filename: r8169-firmware_20230804-1_x86_64.ipk
+Size: 24496
+SHA256sum: 9f50eac1dd831edf3051d1ea12cbd4e412021bf87ad00d0372148f1e087f1a6b
+Description:  RealTek RTL8169 firmware
 
 Package: radeon-firmware
 Version: 20230804-1
@@ -13228,17 +12983,4 @@ Filename: wl18xx-firmware_20230804-1_x86_64.ipk
 Size: 343944
 SHA256sum: ef8ee9f343473715289ab4e11406525659feea46a56271b5349682d70fb52a0d
 Description:  TI WL18xx firmware
-
-Package: xtables-nft
-Version: 1.8.8-2
-Depends: libc, libnftnl11, libiptext0, libiptext6-0, libiptext-nft0, kmod-nft-compat
-License: GPL-2.0
-Section: net
-CPE-ID: cpe:/a:netfilter:iptables
-Architecture: x86_64
-Installed-Size: 88392
-Filename: xtables-nft_1.8.8-2_x86_64.ipk
-Size: 88806
-SHA256sum: def0fb4a2b3b1f3140d0bae230665b1503721cd3d807719cca41a0200dee671d
-Description:  IP firewall administration tool nft
 
