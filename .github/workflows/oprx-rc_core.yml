@@ -40,12 +40,12 @@ jobs:
         elif [ "${{ matrix.target }}" = "armsr-armv8" ]; then
           echo "target=armv8-6.12" >> "$GITHUB_ENV"
         elif [ "${{ matrix.target }}" = "x86_64" ]; then
-          echo "target=x86_64-5.15" >> "$GITHUB_ENV"
+          echo "target=x86_64-6.6" >> "$GITHUB_ENV"
         fi
 
     - name: Sync kernel modules
       run: |
-        kmod=$(curl -sk "https://api.github.com/repos/ilxp/oprx-builder/releases" | grep "browser_download_url" | grep "${{ env.target }}" | tail -1 | awk '{print $2}' | sed 's/\"//g')
+        kmod=$(curl -sk "https://api.github.com/repos/ilxp/op-test/releases" | grep "browser_download_url" | grep "${{ env.target }}" | tail -1 | awk '{print $2}' | sed 's/\"//g')
         kmod_name=$(basename $kmod | sed 's/\.tar\.gz$//;s/^[^-]*-//')
         rm -rf $kmod_name
         curl -L $kmod -o $kmod_name.tar.gz --progress-bar
