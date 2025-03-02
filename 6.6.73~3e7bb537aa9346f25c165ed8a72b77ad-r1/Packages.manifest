@@ -110,10 +110,10 @@ Section: base
 SourceDateEpoch: 1738624235
 URL: http://openwrt.org/
 Architecture: x86_64
-Installed-Size: 62136320
+Installed-Size: 62392320
 Filename: base-files_1655~24.10.0_x86_64.ipk
-Size: 24341763
-SHA256sum: 75e217d2d200b260616312da4e15e0a5f0ca02bf78b6ac27fed5f7f8566e0eb5
+Size: 24667596
+SHA256sum: c43914919c7359a8954b41110c1b716d1305c6d055370eaee5b3a956f164345d
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -11773,12 +11773,12 @@ Provides: nft-fullcone
 Source: feeds/base/new/nft-fullcone
 SourceName: nft-fullcone
 Section: kernel
-SourceDateEpoch: 1739415338
+SourceDateEpoch: 1740899507
 Architecture: x86_64
 Installed-Size: 40960
 Filename: kmod-nft-fullcone_6.6.73-r1_x86_64.ipk
-Size: 10898
-SHA256sum: 3cfe55595240e74e4cdc2a8f8163bfd4291881840e3f40d4089f85625396d219
+Size: 10895
+SHA256sum: 7cbd9ba243ecff68483c43cc966eb689a3cb2d75e3bc0c88d401be8564529a6f
 Description:  Netfilter nf_tables fullcone expression support
 
 Package: kmod-nft-nat
@@ -12312,17 +12312,17 @@ Description:  Kernel module for NVM Express solid state drives directly
  connected to the PCI or PCI Express bus.
 
 Package: kmod-oaf
-Version: 6.6.73.5.0.2-r1
+Version: 6.6.73-r1
 Depends: kernel (=6.6.73~3e7bb537aa9346f25c165ed8a72b77ad-r1), kmod-ipt-conntrack
 Source: feeds/base/diy/OpenAppFilter/oaf
 SourceName: oaf
-Section: Derry Apps
-SourceDateEpoch: 1729289871
+Section: TT Apps
+SourceDateEpoch: 1740756339
 Architecture: x86_64
-Installed-Size: 112640
-Filename: kmod-oaf_6.6.73.5.0.2-r1_x86_64.ipk
-Size: 30048
-SHA256sum: 4d458b96a041b88a64f906f8e5d6d87b751299bbaed40ed17e787f0332ce7cab
+Installed-Size: 450560
+Filename: kmod-oaf_6.6.73-r1_x86_64.ipk
+Size: 124987
+SHA256sum: dea2ad1394e48b01997b9de6c7944562720a5f1672f0a5813c86c8219e3348a8
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
