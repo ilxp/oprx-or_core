@@ -972,7 +972,7 @@
     "kmod-switch-rtl8366s": "6.6.104-r1",
     "kmod-switch-rtl8367": "6.6.104-r1",
     "kmod-switch-rtl8367b": "6.6.104-r1",
-    "kmod-tcp-bbr": "6.6.104-r1",
+    "kmod-tcp-bbr3": "6.6.104-r1",
     "kmod-tcp-hybla": "6.6.104-r1",
     "kmod-tcp-scalable": "6.6.104-r1",
     "kmod-tg3": "6.6.104-r1",
