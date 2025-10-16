@@ -17,7 +17,6 @@
     "iptables-mod-conntrack-extra": "1.8.10-r1",
     "iptables-mod-extra": "1.8.10-r1",
     "iptables-mod-filter": "1.8.10-r1",
-    "iptables-mod-ipopt": "1.8.10-r1",
     "iptables-mod-iprange": "1.8.10-r1",
     "iptables-mod-nat-extra": "1.8.10-r1",
     "iptables-mod-socket": "1.8.10-r1",
