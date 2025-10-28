@@ -21,8 +21,8 @@ Section: opt
 Architecture: x86_64
 Installed-Size: 51200
 Filename: autocore-x86_1.0.0-r1_x86_64.ipk
-Size: 12415
-SHA256sum: 17805ae8bacfa12749800ae46faf6d230c6038798671527f0942a4fac06c8874
+Size: 12409
+SHA256sum: f9b9abfe734fb01141d74aa7b527b8c9ff8fe5b6ea74b0eab308d160e162ecb0
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
@@ -32,10 +32,10 @@ License: GPL-2.0
 Section: base
 URL: http://openwrt.org/
 Architecture: x86_64
-Installed-Size: 50073600
+Installed-Size: 50401280
 Filename: base-files_1~24.10.4_x86_64.ipk
-Size: 22063509
-SHA256sum: 6953250942dc13625c1a67c934de15ec204d1ad739612e063ca67f5f1b98fa1c
+Size: 22158022
+SHA256sum: e425d5ad9e9f308f79ed038232ff25c5e0c43e68c75740222ffa0f7c38fdf067
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -3611,6 +3611,36 @@ Size: 284116
 SHA256sum: 1af2e477c97cf9a9bd8b78f2d7762626b98c17ef88a5bd2c13dd0e28ba26cea3
 Description:  Kernel module for NFS kernel server support
 
+Package: kmod-fs-ntfs3
+Version: 6.6.110-r1
+Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1), kmod-nls-base
+License: GPL-2.0-only
+Section: kernel
+CPE-ID: cpe:/o:linux:linux_kernel
+Architecture: x86_64
+Installed-Size: 450560
+Filename: kmod-fs-ntfs3_6.6.110-r1_x86_64.ipk
+Size: 156472
+SHA256sum: d426d329551c0bd99ea15a6160666ccfb50803bfeac821ae9b8db793c370051c
+Description:  Kernel module for fully functional NTFS filesystem support. It allows
+ reading as well as writing.
+ 
+ It supports NTFS versions up to 3.1.
+
+Package: kmod-fs-ntfs
+Version: 6.6.110-r1
+Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1), kmod-nls-base
+License: GPL-2.0-only
+Section: kernel
+CPE-ID: cpe:/o:linux:linux_kernel
+Architecture: x86_64
+Installed-Size: 215040
+Filename: kmod-fs-ntfs_6.6.110-r1_x86_64.ipk
+Size: 64809
+SHA256sum: 2d319638205f171c8dae2b9f5ddd02ce91908ed504dcd0a9792df73a0306793a
+Description:  Kernel module for limited NTFS filesystem support. Support for writing
+ is extremely limited and disabled as a result.
+
 Package: kmod-fs-reiserfs
 Version: 6.6.110-r1
 Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1)
@@ -5416,8 +5446,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 61440
 Filename: kmod-ikconfig_6.6.110-r1_x86_64.ipk
-Size: 51965
-SHA256sum: 6349d6756c32f0c4474fb52ffad356c64035cb443fb8382be5ce706d96344d64
+Size: 52005
+SHA256sum: d8a8c92c0daf26fe80994863b0c587ac9c1f998c2e4e54f558fee1da36815076
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -9374,8 +9404,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 51200
 Filename: kmod-nft-fullcone_6.6.110-r1_x86_64.ipk
-Size: 13370
-SHA256sum: 909da7273fe22d04536dbc19da5820fbec623865300f1df6bfb826512acf3eab
+Size: 13372
+SHA256sum: 0c614201b8157494ca59c3971fe94a0ab7814a1b9f954afb05552a9c7e752663
 Description:  Netfilter nf_tables fullcone expression support
 
 Package: kmod-nft-nat
@@ -10444,8 +10474,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-ppp-synctty_6.6.110-r1_x86_64.ipk
-Size: 7011
-SHA256sum: 4c4b4af4a04b189c1ee49b8cd400202e48209edae92c93ababa597931d8edc6a
+Size: 7015
+SHA256sum: e47e8c30a12ccc3a784f2b0dc1f7dbf539806573a02d3cea5a2154647e57ba8a
 Description:  Kernel modules for PPP sync tty support
 
 Package: kmod-ppp
@@ -10457,8 +10487,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 112640
 Filename: kmod-ppp_6.6.110-r1_x86_64.ipk
-Size: 33083
-SHA256sum: badd6f376580465e3adddaa3665fb6e0f43270bb17c0f61de156856c7a15ae76
+Size: 33110
+SHA256sum: c11cd766ed6f63a0792ea0e3320c047d664925a3548ea20e577c572d729bffe2
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoa
@@ -10470,8 +10500,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-pppoa_6.6.110-r1_x86_64.ipk
-Size: 6685
-SHA256sum: 3a27708f28bb6e410498fab8026085ae7b0617d19da34349ae871cf75707dd16
+Size: 6687
+SHA256sum: c99815100231c5ddab59578411c4adf25ffaac82a86a3f6a0e44aacea704d902
 Description:  Kernel modules for PPPoA (PPP over ATM) support
 
 Package: kmod-pppoe
@@ -10483,8 +10513,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 40960
 Filename: kmod-pppoe_6.6.110-r1_x86_64.ipk
-Size: 10080
-SHA256sum: a1ddc829a3b51bf158ea484cbc17e1e0538ae834f31c58a5fabe399f36c1c45a
+Size: 10108
+SHA256sum: c388f940d13a454724d3a347c483e882732acad38b373e543c0d606ab0c84678
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
@@ -10496,8 +10526,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 51200
 Filename: kmod-pppol2tp_6.6.110-r1_x86_64.ipk
-Size: 13480
-SHA256sum: 3784938c7d019dcd902f9c4207ae3fc7420f4c1b19b77864706e0e0bc68d2759
+Size: 13482
+SHA256sum: ab211a2ab4cc7baeebf8d74a918390e1dac12672dea8801f9f790702716b6385
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
@@ -10509,8 +10539,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 20480
 Filename: kmod-pppox_6.6.110-r1_x86_64.ipk
-Size: 3696
-SHA256sum: f789b1c12f3f2ed22ff2c1fcf867252b9ae904b3af69792d593886271e769a24
+Size: 3692
+SHA256sum: b5e0905270ba080cb52946a333516b7590df0c1ce60390df45969af0893725a9
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pps-gpio
@@ -10566,8 +10596,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-pptp_6.6.110-r1_x86_64.ipk
-Size: 7850
-SHA256sum: a72cf8159812274a58b29e9cf2164a1bcec7970e3f7166d927292bcabf8d9be5
+Size: 7864
+SHA256sum: 5d90cd8cec89c2c602ffd591d9bfa2e95884caa619eeb8580748efe68ab67247
 Description:  PPtP support
 
 Package: kmod-pstore

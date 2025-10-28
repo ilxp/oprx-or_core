@@ -270,6 +270,8 @@
     "kmod-fs-nfs-v4": "6.6.110-r1",
     "kmod-fs-nfs": "6.6.110-r1",
     "kmod-fs-nfsd": "6.6.110-r1",
+    "kmod-fs-ntfs3": "6.6.110-r1",
+    "kmod-fs-ntfs": "6.6.110-r1",
     "kmod-fs-reiserfs": "6.6.110-r1",
     "kmod-fs-smbfs-common": "6.6.110-r1",
     "kmod-fs-squashfs": "6.6.110-r1",
