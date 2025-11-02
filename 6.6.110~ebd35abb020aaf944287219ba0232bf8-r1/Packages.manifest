@@ -23,17 +23,17 @@ Depends: libc, lm-sensors, ethtool
 Source: feeds/base/system/autocore/autocore-arm
 SourceName: autocore
 Section: opt
-SourceDateEpoch: 1761874449
+SourceDateEpoch: 1762046419
 Maintainer: Lean / CN_SZTL
 Architecture: x86_64
 Installed-Size: 51200
 Filename: autocore-x86_1.0.0-r1_x86_64.ipk
-Size: 12418
-SHA256sum: c10c2fa02985c6f0267e5a63200d4f7457cca2897ed6fc5986cd36a354c0f813
+Size: 12417
+SHA256sum: 8818e788a62a5f8ed82c5d7f62de4b7409fcc4d3607539991749d0fb474eb453
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
-Version: 1~24.10.4
+Version: 1~25.11.2
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool, procd, procd-seccomp, busybox
 Source: feeds/base/base-files
 SourceName: base-files
@@ -42,10 +42,10 @@ Section: base
 SourceDateEpoch: 1760997621
 URL: http://openwrt.org/
 Architecture: x86_64
-Installed-Size: 50380800
-Filename: base-files_1~24.10.4_x86_64.ipk
-Size: 22167378
-SHA256sum: 8eedefb74fea009bb52fd89391af573b4764d5b9e4756791e2f9fa5a3c97fbeb
+Installed-Size: 50391040
+Filename: base-files_1~25.11.2_x86_64.ipk
+Size: 22167541
+SHA256sum: 09e49f226c1f19ca8465ad3eeb1605389027e14fcc7478c283d78ffdde7586c1
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -7942,6 +7942,23 @@ Description:  Netfilter (IPv4) kernel modules for packet content inspection
  - string
  - bpf
 
+Package: kmod-ipt-fullconenat
+Version: 6.6.110.2023.01.01~74c5e6f3-r1
+Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1), kmod-nf-ipt, kmod-nf-nat
+Source: feeds/base/network/utils/fullconenat
+SourceName: fullconenat
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+SourceDateEpoch: 1762046419
+Maintainer: Chion Tang <tech@chionlab.moe>
+Architecture: x86_64
+Installed-Size: 40960
+Filename: kmod-ipt-fullconenat_6.6.110.2023.01.01~74c5e6f3-r1_x86_64.ipk
+Size: 11172
+SHA256sum: e33a6dd1ffe33a4c9e4119e555efe196abb187c90a95bc3620b943f09017d821
+Description:  FULLCONENAT netfilter module
+
 Package: kmod-ipt-fuzzy
 Version: 6.6.110.3.26-r1
 Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1), kmod-ipt-core
@@ -8228,8 +8245,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
 Installed-Size: 399360
 Filename: kmod-ipt-lua_6.6.110.3.26-r1_x86_64.ipk
-Size: 109155
-SHA256sum: 9dc39de7924c44b233bbf70bb0e16b5ef03623d3bf79501c42af1fa44900c65c
+Size: 109138
+SHA256sum: 60a2821f27769915cb9e90e0d5a11c17b651e56619b9faf31f1037e9e1113123
 Description:  Lua PacketScript netfilter module
 
 Package: kmod-ipt-nat-extra
@@ -11479,13 +11496,13 @@ Source: feeds/base/new/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1730896011
+SourceDateEpoch: 1761931991
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: x86_64
 Installed-Size: 296960
 Filename: kmod-natflow_6.6.110.20241020-r1_x86_64.ipk
-Size: 87288
-SHA256sum: 64738db368f362af3b9ef13c8c62b556e02935989ca927f1404ad364c63fb1d4
+Size: 87284
+SHA256sum: fc05b04b06ddab8cecaecf900800843e2e0cc786ff8696ca91cea3b59cd58cac
 Description:  fast nat forward kmod
 
 Package: kmod-natsemi
@@ -12221,19 +12238,21 @@ SHA256sum: 398ed708e3f79658e17cd90d9b5bddea480afbc7b1ff6730123319b5580d4739
 Description:  Netfilter nf_tables fib support
 
 Package: kmod-nft-fullcone
-Version: 6.6.110-r1
-Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1), kmod-nft-core, kmod-nf-conntrack, kmod-nf-conntrack6
-Provides: nft-fullcone
-Source: feeds/base/new/nft-fullcone
-SourceName: nft-fullcone
+Version: 6.6.110.2023.05.17~07d93b62-r2
+Depends: kernel (=6.6.110~ebd35abb020aaf944287219ba0232bf8-r1), kmod-nft-nat
+Source: feeds/base/network/utils/fullconenat-nft
+SourceName: fullconenat-nft
+License: GPL-2.0-only
+LicenseFiles: LICENSE
 Section: kernel
-SourceDateEpoch: 1727679040
+SourceDateEpoch: 1762046419
+Maintainer: Syrone Wong <wong.syrone@gmail.com>
 Architecture: x86_64
 Installed-Size: 51200
-Filename: kmod-nft-fullcone_6.6.110-r1_x86_64.ipk
-Size: 13372
-SHA256sum: 0c614201b8157494ca59c3971fe94a0ab7814a1b9f954afb05552a9c7e752663
-Description:  Netfilter nf_tables fullcone expression support
+Filename: kmod-nft-fullcone_6.6.110.2023.05.17~07d93b62-r2_x86_64.ipk
+Size: 13443
+SHA256sum: 26cc7bebcf8c46ff81cccf52385ea96137410f03e87f8369be58178ac4c548af
+Description:  nftables fullcone expression support
 
 Package: kmod-nft-nat
 Version: 6.6.110-r1
