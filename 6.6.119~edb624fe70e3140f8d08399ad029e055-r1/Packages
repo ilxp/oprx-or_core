@@ -21,21 +21,21 @@ Section: opt
 Architecture: x86_64
 Installed-Size: 51200
 Filename: autocore-x86_1.0.0-r1_x86_64.ipk
-Size: 12412
-SHA256sum: ae441cae8fe3d43a20a82ce07f42babfe6851e873d6eee16791123d630c8e1e4
+Size: 12407
+SHA256sum: 2505fdb08ed92e4f12f715038581987da7e98d7c63625506e184737b772380f0
 Description:  x86/x64 auto core loadbalance script.
 
 Package: base-files
-Version: 1~25.12.22
+Version: 1~26.1.26
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool, procd, procd-seccomp, busybox
 License: GPL-2.0
 Section: base
 URL: http://openwrt.org/
 Architecture: x86_64
-Installed-Size: 50032640
-Filename: base-files_1~25.12.22_x86_64.ipk
-Size: 22126129
-SHA256sum: 07110fd72c7fe87eb49bf0051b3609a1ca1cbf07796e1975ea7a42074cad9d67
+Installed-Size: 50995200
+Filename: base-files_1~26.1.26_x86_64.ipk
+Size: 22691884
+SHA256sum: 69ca1ee4592545170347c5907fbfe31d2cdb0b1c544491417446a4970675269e
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -4333,15 +4333,15 @@ Description:  Kernel module for Maxim MAX6642 temperature monitor
 
 Package: kmod-hwmon-max6697
 Version: 6.6.119-r1
-Depends: kernel (=6.6.119~edb624fe70e3140f8d08399ad029e055-r1), kmod-hwmon-core, kmod-i2c-core
+Depends: kernel (=6.6.119~edb624fe70e3140f8d08399ad029e055-r1), kmod-hwmon-core, kmod-i2c-core, kmod-regmap-i2c
 License: GPL-2.0-only
 Section: kernel
 CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-hwmon-max6697_6.6.119-r1_x86_64.ipk
-Size: 6695
-SHA256sum: 25059491ec633fda3d1c9643684613219332394160f2ba45abc783be825d9bdc
+Size: 6704
+SHA256sum: fdd488ddb8e320159198dc3287457e4b501d5a274eb431744ee1759b08467f34
 Description:  Kernel module for Maxim MAX6697 temperature monitor
 
 Package: kmod-hwmon-mcp3021
@@ -9382,7 +9382,7 @@ Architecture: x86_64
 Installed-Size: 51200
 Filename: kmod-nft-fullcone_6.6.119.2023.05.17~07d93b62-r1_x86_64.ipk
 Size: 13365
-SHA256sum: 6930e7494511c3a3864006811a630f9cfea3dc662dc49a182a5f38829cb4642c
+SHA256sum: a82b21b4215ea993179f6a19c919b63b20ff95a8bb8e380bbfe1f55890e9196e
 Description:  Netfilter nf_tables fullcone support
 
 Package: kmod-nft-nat
@@ -10452,7 +10452,7 @@ Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-ppp-synctty_6.6.119-r1_x86_64.ipk
 Size: 7007
-SHA256sum: 3b246a5ec6a56162e15f808bb1d1cc7b67ede78ed6b32e632f4c03245857e075
+SHA256sum: 998752b8942c1191813e964977ddd985d5d10217b879d889670ec851343a4b1f
 Description:  Kernel modules for PPP sync tty support
 
 Package: kmod-ppp
@@ -10464,8 +10464,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 112640
 Filename: kmod-ppp_6.6.119-r1_x86_64.ipk
-Size: 33100
-SHA256sum: 2e4983283b46374edc53df0ab1887b78464b9316dbcfc84ab6d6b6db4042bafa
+Size: 33094
+SHA256sum: 1b46e7f6eccd5132e807ec5e5a891156a90c2da0a04f899cd679098467290b15
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoa
@@ -10477,8 +10477,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-pppoa_6.6.119-r1_x86_64.ipk
-Size: 6703
-SHA256sum: e69ce584ace612643e110dea7e02835097c351797465008db234c0a84e9ecd75
+Size: 6688
+SHA256sum: c26b06573647a94826398763649e6586cf028e342d3c6dc9415d4347a0874a25
 Description:  Kernel modules for PPPoA (PPP over ATM) support
 
 Package: kmod-pppoe
@@ -10490,8 +10490,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 40960
 Filename: kmod-pppoe_6.6.119-r1_x86_64.ipk
-Size: 10111
-SHA256sum: e228e44ee22e03e508168d9ec4919bd45e40d06b65a098ce6c1b930b4ba9f62e
+Size: 10094
+SHA256sum: 393c5b5687e74c161de6584911b8a848abeab9c645c6f3edd0bc9d76fee3b52d
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
@@ -10503,8 +10503,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 51200
 Filename: kmod-pppol2tp_6.6.119-r1_x86_64.ipk
-Size: 13467
-SHA256sum: 4baefbbaf321509a9ece167372ae630f2b58c0579290ac4c7fabf4f4655b739c
+Size: 13473
+SHA256sum: 58374380011058b44ae3551936279b25cff7ad4326c77fb2133f5abd78f4cfb3
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
@@ -10516,8 +10516,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 20480
 Filename: kmod-pppox_6.6.119-r1_x86_64.ipk
-Size: 3704
-SHA256sum: dbd3179c81649f6e5aee834bc449cedc440519f6ff3a06346f1ede5f235e3ba2
+Size: 3693
+SHA256sum: 089c0f9210f49bcc1d7bff84aabde9078c88b53516d16543d9c4bd5bef2a62bf
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pps-gpio
@@ -10573,8 +10573,8 @@ CPE-ID: cpe:/o:linux:linux_kernel
 Architecture: x86_64
 Installed-Size: 30720
 Filename: kmod-pptp_6.6.119-r1_x86_64.ipk
-Size: 7864
-SHA256sum: 4e79fe6220ce63b89b52eb43f965d0da7545eb902daee6eb16af44d8da44c9de
+Size: 7862
+SHA256sum: 5ca62a299a68cf8fbb51e7b04033df0acab509d404a75cac0cb6cad451590aa9
 Description:  PPtP support
 
 Package: kmod-pstore
@@ -10686,39 +10686,39 @@ Description:  Kernel modules for RDC Fast-Ethernet adapters.
 Package: kmod-r8125
 Version: 6.6.119.9.016.01-r1
 Depends: kernel (=6.6.119~edb624fe70e3140f8d08399ad029e055-r1), kmod-libphy
-Provides: kmod-r8169
+Provides: @kmod-r8169-any
 License: GPLv2
 Section: kernel
 Architecture: x86_64
 Installed-Size: 501760
 Filename: kmod-r8125_6.6.119.9.016.01-r1_x86_64.ipk
-Size: 123088
-SHA256sum: 2472daf21454718a58815b04cad5e8b9d349302c10f95f654d43d45fa4da9192
+Size: 123117
+SHA256sum: 24db415ab52a8f7ce68daccb5687f4cb0693149b8aa315f1609a9fb759e9e970
 Description:  Realtek RTL8125 PCI 2.5 Gigabit Ethernet driver
 
 Package: kmod-r8126
 Version: 6.6.119.10.016.00-r1
 Depends: kernel (=6.6.119~edb624fe70e3140f8d08399ad029e055-r1), kmod-libphy
-Provides: kmod-r8169
+Provides: @kmod-r8169-any
 Section: kernel
 Architecture: x86_64
 Installed-Size: 317440
 Filename: kmod-r8126_6.6.119.10.016.00-r1_x86_64.ipk
-Size: 90409
-SHA256sum: d03709348afd562b36f4a1ce4245b4dc112211f5c7eb78e0d6ac591901f319ee
+Size: 90411
+SHA256sum: 1a5cc5774ad4798062d01b2cc125d98e81c8932478954451f8322c22edb20281
 Description:  Realtek RTL8126 PCI 5 Gigabit Ethernet driver
 
 Package: kmod-r8127
 Version: 6.6.119.11.015.00-r1
 Depends: kernel (=6.6.119~edb624fe70e3140f8d08399ad029e055-r1), kmod-libphy
-Provides: kmod-r8169
+Provides: @kmod-r8169-any
 License: GPLv2
 Section: kernel
 Architecture: x86_64
 Installed-Size: 337920
 Filename: kmod-r8127_6.6.119.11.015.00-r1_x86_64.ipk
-Size: 94921
-SHA256sum: 0162d35ae5d6d8ec7f0b5637f478e5ab1beaa88ae9b78f95be0f2fba01bdddbc
+Size: 94927
+SHA256sum: e3cd22754166f834d54a017eaa8ee59b29130ba3415227f2b35b78e15b472977
 Description:  Realtek RTL8127 PCI 10 Gigabit Ethernet driver
 
 Package: kmod-r8168

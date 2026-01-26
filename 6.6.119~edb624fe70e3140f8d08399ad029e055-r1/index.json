@@ -4,7 +4,7 @@
   "packages": {
     "arptables-nft": "1.8.10-r1",
     "autocore-x86": "1.0.0-r1",
-    "base-files": "1~25.12.22",
+    "base-files": "1~26.1.26",
     "block-mount": "2024.07.14~408c2cc4-r1",
     "dropbear": "2024.86-r2",
     "ebtables-nft": "1.8.10-r1",
