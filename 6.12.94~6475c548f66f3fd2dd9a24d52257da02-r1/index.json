@@ -4,7 +4,7 @@
   "packages": {
     "arptables-nft": "1.8.10-r3",
     "autocore-x86": "1.0.1-r1",
-    "base-files": "1~26102",
+    "base-files": "1~261010",
     "block-mount": "2026.05.23~16718b6e-r1",
     "dropbear": "2025.89-r3",
     "ebtables-nft": "1.8.10-r3",
@@ -667,7 +667,7 @@
     "kmod-mwifiex-sdio": "6.12.94.6.18.26-r1",
     "kmod-mwl8k": "6.12.94.6.18.26-r1",
     "kmod-nat46": "6.12.94.2025.04.23~04923c51-r1",
-    "kmod-natflow": "6.12.94.2026.09.29~382cbc1-r126",
+    "kmod-natflow": "6.12.94.2026.10.08~268e72e-r127",
     "kmod-natsemi": "6.12.94-r1",
     "kmod-nbd": "6.12.94-r1",
     "kmod-ne2k-pci": "6.12.94-r1",
